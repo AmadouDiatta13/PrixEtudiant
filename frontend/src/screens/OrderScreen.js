@@ -5,7 +5,17 @@ import { createOrder, detailsOrder } from '../actions/orderActions';
 function OrderScreen(props) {
 
   const orderDetails = useSelector(state => state.orderDetails);
-  const { loading, order, error } = orderDetails;
+  const { loading , order , error } = orderDetails;
+  const dispatch = useDispatch();
+  useEffect(() => {
+    if (error) {
+      props.history.push("/profile");
+    } else {
+      dispatch(detailsOrder(props.match.params.id));
+    }
+    return () => {
+    };
+  }, [error]);
 
   return loading ? <div>Chargement ...</div> : error ? <div>{error}</div> :
 
@@ -37,7 +47,7 @@ function OrderScreen(props) {
               {
                 order.orderItems.length === 0 ?
                   <div>
-                    Chariot vide
+                    Cariot vide
           </div>
                   :
                   order.orderItems.map(item =>
@@ -69,19 +79,23 @@ function OrderScreen(props) {
         </div>
         <div className="placeorder-action">
           <ul>
+            <li className="placeorder-actions-payment">
+
+            </li>
             <li>
               <h3>Résumé Commande</h3>
             </li>
             <li>
               <div>Articles</div>
-              <div>{order.itemsPrice} fr</div>
+              <div>{order.itemsPrice}fr</div>
             </li>
             <li>
               <div>Expédition</div>
+              <div>{order.shippingPrice}fr</div>
             </li>
             <li>
               <div>Total Commande</div>
-              <div>{order.totalPrice} fr</div>
+              <div>{order.totalPrice}fr</div>
             </li>
           </ul>
 
