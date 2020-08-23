@@ -47,8 +47,8 @@ function HomeScreen(props) {
           Classer par{' '}
           <select name="sortOrder" onChange={sortHandler}>
             <option value="">Nouveauté</option>
-            <option value="lowest">moins cher</option>
-            <option value="highest">plus cher</option>
+            <option value="lowest">Plus cher</option>
+            <option value="highest">moins cher</option>
           </select>
         </li>
       </ul>
