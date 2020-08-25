@@ -99,7 +99,7 @@ function App() {
             </li>
             
             <li>
-              <Link to="/category/Immobilie">Immobilié</Link>
+              <Link to="/category/Immobilier">Immobilier</Link>
             </li>
             <ul>
             <li>
