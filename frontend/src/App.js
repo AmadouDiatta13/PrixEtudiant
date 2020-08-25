@@ -157,7 +157,7 @@ function App() {
 	 <a href=" +221705225702" ><img src="/images/icons/whatsapp.svg" alt="whatsapp"></img></a>
 	 <a href=""><img src="/images/icons/twitter.svg" alt="twitter"></img></a>
 	 <a href="https://www.facebook.com/Prix-%C3%A9tudiants-254341861865406/" target="_blank"><img src="/images/icons/facebook.svg" alt="facebook"></img></a>
-	 <a href=""><img src="/images/icons/instagram.svg" alt="instagram"></img></a>
+	 <a href="https://www.instagram.com/prixetudiant/"><img src="/images/icons/instagram.svg" alt="instagram"></img></a>
 	 <a href="mailto:prixetudiant@gmail.com"><img src="/images/icons/gmail.svg" alt="gmail"></img></a>
    <p>+221-70-522-57-02</p>
    </footer>
