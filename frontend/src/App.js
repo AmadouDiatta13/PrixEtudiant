@@ -70,6 +70,9 @@ function App() {
 					    <li>
               <Link to="/category/Portable">Portable</Link>
               </li>
+               <li>
+              <Link to="/category/Tablette">Tablette</Link>
+              </li>
 					    <li>
               <Link to="/category/Accessoire">Accessoire</Link>
               </li>
