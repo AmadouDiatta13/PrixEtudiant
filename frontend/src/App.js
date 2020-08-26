@@ -154,12 +154,12 @@ function App() {
           </div>
         </main>
         <footer className="footer">
-	 <a href=" +221785202084" ><img src="/images/icons/whatsapp.svg" alt="whatsapp"></img></a>
+	 <a href=" +221763546198" ><img src="/images/icons/whatsapp.svg" alt="whatsapp"></img></a>
 	 <a href=""><img src="/images/icons/twitter.svg" alt="twitter"></img></a>
 	 <a href="https://www.facebook.com/Prix-%C3%A9tudiants-254341861865406/" target="_blank"><img src="/images/icons/facebook.svg" alt="facebook"></img></a>
 	 <a href="https://www.instagram.com/prixetudiant/"><img src="/images/icons/instagram.svg" alt="instagram"></img></a>
 	 <a href="mailto:prixetudiant@gmail.com"><img src="/images/icons/gmail.svg" alt="gmail"></img></a>
-   <p>+221-78-520-20-84</p>
+   <p>+221-76-354-61-98</p>
    </footer>
       </div>
     </BrowserRouter>
