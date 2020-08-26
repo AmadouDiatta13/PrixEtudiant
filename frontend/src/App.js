@@ -74,7 +74,7 @@ function App() {
               <Link to="/category/Tablette">Tablette</Link>
               </li>
 					    <li>
-              <Link to="/category/Accessoire">Accessoire</Link>
+              <Link to="/category/AccessoireM">Accessoire</Link>
               </li>
 				     </ul>
             <li>
@@ -89,7 +89,10 @@ function App() {
               </li>
              <li>
              <Link to="/category/Enfant">Enfant</Link>
-             </li>            
+             </li>  
+             <li>
+             <Link to="/category/AccessoireH">Accessoire</Link>
+             </li>
 					</ul>               
             <li>
               <Link to="/category/Beaute">Beauté</Link>
